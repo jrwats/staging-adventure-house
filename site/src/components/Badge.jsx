@@ -4,8 +4,8 @@ import { node } from 'prop-types';
 
 const Badge = ({ children, ...props }) => {
   return (
-    <Box variant='card' {...props} >
-      <Box variant='badge'>{children}</Box>
+    <Box variant="card" {...props}>
+      <Box variant="badge">{children}</Box>
     </Box>
   );
 };

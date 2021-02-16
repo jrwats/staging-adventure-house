@@ -44,7 +44,7 @@ const Gallery = ({ data }) => {
           gridTemplateColumns: 'repeat(auto-fit, minmax(128px, 1fr))',
         }}
       >
-        {data.allFile.edges.map(img => (
+        {data.allFile.edges.map((img) => (
           <Thumbnail
             key={img.node.id}
             width={200}
