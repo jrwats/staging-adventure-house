@@ -11,7 +11,7 @@
     "lint": "eslint \"**/*.{js,jsx}\"",
     "start": "yarn run develop",
     "serve": "gatsby serve",
-    "deploy": "gatsby build && gh-pages -d public",
+    "deploy": "gatsby build && ./deploy.sh && gh-pages -d public",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
