@@ -6,8 +6,8 @@ const Activities = () => {
   return (
     <div>
       <Header />
-      <Link to="/hikes">Hikes</Link>
-      <Link to="/dining">Dining</Link>
+      <div><Link to="/hikes">Hikes</Link></div>
+      <div><Link to="/dining">Dining</Link></div>
     </div>
   );
 };
